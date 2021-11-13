@@ -17,7 +17,7 @@ with open('requirements.txt') as f:
 
 for i, l in enumerate(required):
     if l.startswith('git') and 'ProjectUtils' in l:
-        required[i] = 'rprojc@' + l
+        required[i] = 'rutils@' + l
 
 
 
