@@ -15,6 +15,12 @@ except (IOError, ImportError):
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
+for i, l in enumerate(required):
+    if l.startswith('git') and 'ProjectUtils' in l:
+        required[i] = 'rprojc@' + l
+
+
+
 
 def get_git_version(default="0.0.1"):
     try:
