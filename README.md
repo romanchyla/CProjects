@@ -4,7 +4,7 @@ Short CS projects; low effort C category
 
 
 ```python
-from rprojectc import StandardProject
+from rprojc import StandardProject
 
 class Application(StandardProject):
 
