@@ -12,3 +12,10 @@ class Application(StandardProject):
         print('Hello world: {}'.format(a))
 
 ```
+
+
+Development mode:
+
+```
+pip install -e <path-to-rutils>
+```
