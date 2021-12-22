@@ -91,3 +91,6 @@ console_scripts = [
 [xsetup]
 scripts = [
 ]
+include_package_data = true
+[xsetup.package_data]
+ "" = ["Dockerfile*"]
