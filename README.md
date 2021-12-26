@@ -15,4 +15,18 @@ Python project created to explore a problem.
 
 Install this via pip (or your favourite package manager):
 
+<<<<<<< Updated upstream
 `pip install rprojc`
+=======
+    def do(self, a):
+        print('Hello world: {}'.format(a))
+
+```
+
+
+Development mode:
+
+```bash
+pip install -e <path-to-rutils>
+```
+>>>>>>> Stashed changes
