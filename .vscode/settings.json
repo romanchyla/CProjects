@@ -12,4 +12,5 @@
     "PYTHONPATH": ".:tests"
   },
   "python.analysis.extraPaths": [],
+  "python.defaultInterpreterPath": ".venv/bin/python"
 }

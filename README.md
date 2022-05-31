@@ -1,12 +1,14 @@
 # rprojc
 
 <p align="center">
-  <a href="https://github.com/romanchyla/rprojc/actions?query=workflow%3ACI">
-    <img src="https://img.shields.io/github/workflow/status/romanchyla/rprojc/CI/main?label=CI&logo=github&style=flat-square" alt="CI Status" >
-  </a>
+
+![CI Status](https://github.com/romanchyla/rprojc/actions/workflows/ci.yml/badge.svg)
+
+  <!--
   <a href="https://codecov.io/gh/romanchyla/rprojc">
     <img src="https://img.shields.io/codecov/c/github/romanchyla/rprojc.svg?logo=codecov&logoColor=fff&style=flat-square" alt="Test coverage percentage">
   </a>
+  //-->
 </p>
 
 Python project created to explore a problem.
@@ -15,18 +17,20 @@ Python project created to explore a problem.
 
 Install this via pip (or your favourite package manager):
 
-<<<<<<< Updated upstream
-`pip install rprojc`
-=======
-    def do(self, a):
-        print('Hello world: {}'.format(a))
-
+```bash
+pip install rprojc
 ```
 
+## Development
 
-Development mode:
+Install locally into virtualenv
 
 ```bash
-pip install -e <path-to-rutils>
+virtualenv .venv
+source .venv/bin/activate
+python rtool.py install
 ```
->>>>>>> Stashed changes
+
+## Documentation
+
+[documentation](https://rprojc.readthedocs.io)
