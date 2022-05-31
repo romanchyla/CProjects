@@ -94,6 +94,4 @@ scripts = [
 [xsetup.entry_points]
 console_scripts = [
     "rprojc=rprojc.cli:cli",
-    "rtool=rtool:cli",
 ]
-
